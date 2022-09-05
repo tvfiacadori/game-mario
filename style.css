@@ -51,7 +51,7 @@
 .cloud {
   position: absolute;
   width: 500px;
-  animation: clouds-animations 01s infinite linear;
+  animation: clouds-animations 20s infinite linear;
 }
 .gameOver{
   z-index: 100;
