@@ -50,11 +50,11 @@
 .cloud {
   position: absolute;
   width: 500px;
-  animation: clouds-animations 20ms infinite linear;
+  animation: clouds-animations 01s infinite linear;
 }
 
 
-@keyframes clouds-animation {
+@keyframes clouds-animations {
   from {
     right: -500px;
   }
