@@ -96,7 +96,7 @@
   }
 }
 
-body .btn-reset {
+ .btn-reset {
   z-index: 100;
   position: absolute;
   font-size: 25px;
@@ -106,6 +106,6 @@ body .btn-reset {
   color: yellow;
   background: green;
   cursor: grab;
-  top: 120%;
+  top: 70%;
   left: 50%;
 }     
