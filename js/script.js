@@ -1,6 +1,7 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 
+
 const jump = () => {
   mario.classList.add('jump');
 
@@ -31,7 +32,8 @@ const jump = () => {
     mario.src = './img/game-over.png';
     mario.style.width = '75px';
     mario.style.marginLeft = '50px';
-
+    gameOver()
+    
     clearInterval(loop);
 
     //console.log(loop);
@@ -40,3 +42,11 @@ const jump = () => {
  }, 10);
 
 document.addEventListener('keydown', jump);
+
+function gameOver(){
+  let gameboard = document.querySelector(".game-board")
+  let gameOver = document.createElement('div')
+  gameOver.classList.add("gameOver")
+
+  gameboard.appendChild(gameOver)
+}
