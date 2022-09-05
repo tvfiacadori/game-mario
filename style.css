@@ -96,7 +96,7 @@
   }
 }
 
-.btn-reset {
+body .btn-reset {
   z-index: 100;
   position: absolute;
   font-size: 25px;
